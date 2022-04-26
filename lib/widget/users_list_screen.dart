@@ -1,10 +1,10 @@
 import 'package:elementary/elementary.dart';
-import 'package:elementary_training_test/service/widget/ui/heroes_list_widgets/users_list_wm.dart';
+import 'package:elementary_training_test/widget/users_list_wm.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-import '../../../model/Users.dart';
+import '../model/Users.dart';
 
 ///экран выдает список пользователей
 class UsersListScreen extends ElementaryWidget<IUsersWM> {
