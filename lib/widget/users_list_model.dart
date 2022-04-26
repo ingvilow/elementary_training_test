@@ -1,7 +1,7 @@
 import 'package:elementary/elementary.dart';
 
-import '../../../model/Users.dart';
-import '../../../users_service.dart';
+import '../model/Users.dart';
+import '../service/users_service.dart';
 
 class UsersListModel extends ElementaryModel {
   final ApiService? _apiService;

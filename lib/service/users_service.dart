@@ -2,7 +2,7 @@ import 'dart:convert' as convert;
 import 'dart:io';
 import 'package:http/http.dart' as http;
 
-import 'model/Users.dart';
+import '../model/Users.dart';
 
 class ApiService {
   Future<List<Users>?> fetchHero() async {

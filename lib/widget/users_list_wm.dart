@@ -1,12 +1,11 @@
 import 'package:elementary/elementary.dart';
-import 'package:elementary_training_test/service/widget/ui/heroes_list_widgets/users_list_model.dart';
-import 'package:elementary_training_test/service/widget/ui/heroes_list_widgets/users_list_screen.dart';
+import 'package:elementary_training_test/widget/users_list_model.dart';
+import 'package:elementary_training_test/widget/users_list_screen.dart';
+
 import 'package:flutter/cupertino.dart';
 
-import 'package:flutter/foundation.dart';
-
-import '../../../model/Users.dart';
-import '../../../users_service.dart';
+import '../model/Users.dart';
+import '../service/users_service.dart';
 
 //я так подозреваю, что именно тут должна просиходить, наверное, такая штука как фильтрация по айди, например?
 class UsersListWM extends WidgetModel<UsersListScreen, UsersListModel>
